@@ -1,0 +1,123 @@
+/* Write your code here. */
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0px;
+}
+
+.bg_color {
+  background-color: white;
+  padding: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-start;
+}
+h1 {
+  align-self: center;
+}
+
+.button1 {
+  background-color: #fbbf24;
+  padding: 12px;
+  margin: 16px;
+  height: 70px;
+  width: 90px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Bree Serif;
+}
+.button2 {
+  background-color: #38bdf8;
+  padding: 12px;
+  margin: 16px;
+  height: 100px;
+  width: 150px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Bree Serif;
+}
+.button3 {
+  background-color: #ec4899;
+  padding: 12px;
+  margin: 16px;
+  height: 200px;
+  width: 300px;
+  color: white;
+  text-align: center;
+  display: flex;
+  flex: column;
+  justify-content: center;
+  align-items: center;
+  font-family: Bree Serif;
+}
+
+.box-stages {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: flex-end;
+}
+
+@media screen and (max_width: 768px) {
+  .box-stages {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .button1 {
+    background-color: #fbbf24;
+    padding: 12px;
+    margin: 16px;
+    height: 70px;
+    width: 90px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Bree Serif;
+    align-self: center;
+  }
+  .button2 {
+    background-color: #38bdf8;
+    padding: 12px;
+    margin: 16px;
+    height: 100px;
+    width: 150px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Bree Serif;
+    align-self: center;
+  }
+  .button3 {
+    background-color: #ec4899;
+    padding: 12px;
+    margin: 16px;
+    height: 200px;
+    width: 300px;
+    color: white;
+    text-align: center;
+    display: flex;
+    flex: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Bree Serif;
+    align-self: center;
+  }
+}
